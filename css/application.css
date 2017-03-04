@@ -1,0 +1,77 @@
+#menu ul {
+  height: 140px;
+  justify-content: center;
+}
+#menu li {
+  margin: auto 15px;
+}
+
+.link-popup:after {
+  content: url('../img/common/btn_popup.png');
+  transform: scale(.5);
+}
+
+.btn-cart:after {
+  content: url('../img/common/btn_cart.png');
+  transform: scale(.5);
+}
+.btn-contact:after {
+  content: url('../img/common/btn_contact.png');
+  transform: scale(.5);
+}
+
+
+.lightgrey { background: #F9F9F9 !important; }
+.grey { background: #EEE !important; }
+.darkgrey { background: #DDD !important; }
+.dark {background: #565A65 !important; }
+
+section {
+  margin: 0 !important;
+  padding: 80px 20% !important;
+  max-width: 100% !important;
+}
+@media (max-width: 999px) {
+  section {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+.box { background: transparent; }
+
+
+dt:before {
+  content: '';
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  background: url('../img/faq/txt_q.gif');
+  background-size: cover;
+}
+dd:before {
+  content: '';
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  background: url('../img/faq/txt_a.gif');
+  background-size: cover;
+}
+dd {
+  margin-bottom: 15px;
+}
+
+#contact {
+  padding: 30px 20% !important;
+}
+
+#footer { color: #ddd; }
+#footer a, #footer a:visited { color: #fff; }
+#footer menu li {
+  display: inline;
+}
+#footer menu { -webkit-padding-start: 0; }
+#footer menu li:not(:last-child):after {
+  content: '|';
+  display: inline-block;
+  margin: 0 5px;
+}
