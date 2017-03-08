@@ -21,6 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 #menu li {
   margin: auto 15px;
 }
+#sp-sns ul {
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: -50px;
+  margin-right: 5%;
+}
+#sp-sns li { margin-left: 10px; }
 
 .link-popup:after {
   content: url('../img/common/btn_popup.png');
@@ -101,6 +108,7 @@ dt, dd {
 #footer { color: #ddd !important; }
 #footer p, #footer a, #footer a:visited { color: #fff !important; }
 #footer menu { -webkit-padding-start: 0; }
+#footer .is-one-third li:first-child { margin-right: 10px; }
 
 @media (min-width: 999px) {
   #footer menu li {
