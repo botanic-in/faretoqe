@@ -5,6 +5,7 @@ body {
   width: 100%;
   overflow: hidden;
 }
+hr { background-color: #565A65; }
 
 .mb-50 { margin-bottom: 50px; }
 .mb-30 { margin-bottom: 30px; }
@@ -90,13 +91,13 @@ section {
 .button.is-dark, .button.is-dark:hover {
   color: #f5f5f5 !important;
 }
-.btn-cart, .btn-contact {
+.btn-cart, .btn-contact, .btn-about {
   height: 3.0em;
   width: 80%;
   font-size: 1.2rem;
 }
 @media (max-width: 999px) {
-  .btn-cart, .btn-contact {
+  .btn-cart, .btn-contact, .btn-about {
     width: 100%;
   }
 }
@@ -159,7 +160,7 @@ dt, dd {
   margin: 0 auto 15px;
 }
 .steps-four .wrapper {
-  width: 100%;
+  width: 90%;
 }
 .steps .wrapper:before {
   content:"";
@@ -203,4 +204,37 @@ dt, dd {
   .title.is-4-mobile { font-size: 1.5rem; }
   .title.is-5-mobile { font-size: 1.25rem; }
   .title.is-6-mobile { font-size: 14px; }
+}
+
+.circle { position: relative; }
+.circle img {
+  position: absolute;
+  z-index: 100;
+  top: 30px;
+  left: 19px;
+}
+.circle div:after {
+  content: '';
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 999px) {
+  .accordion { display: none; }
+  .divider {
+    text-align: center;
+    border-top: 1px solid #565A65;
+  }
+  .btn-accordion {
+    border-top: none !important;
+    border-radius: 0 0 7px 7px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
 }

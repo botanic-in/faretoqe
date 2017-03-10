@@ -21,6 +21,17 @@
   <link rel="stylesheet" href="css/application.css">
 </head>
 <body>
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-92711820-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Facebook Plugin -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -30,6 +41,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
+
   <!-- Top MV -->
   <div id="top">
     <picture>
@@ -38,6 +50,7 @@
       <img src="img/top/mv_top.jpg" alt="">
     </picture>
   </div>
+
 
   <!-- グローバルメニュー -->
   <div id="menu" class="is-hidden-mobile">
@@ -108,10 +121,12 @@
           </p>
         </div>
       </div>
-      <div class="has-text-right">
-        <a href="http://www.botanic.in/" target="_blank" class="button link-popup">
-          運営組織： Botanic Inc.
-        </a>
+      <div class="columns is-mobile">
+        <div class="column is-5-desktop is-offset-7-desktop">
+          <a href="http://www.botanic.in/" target="_blank" class="button btn-about link-popup">
+            運営組織： Botanic Inc.
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -197,175 +212,225 @@
       </div>
     </div>
 
-    <div id="calendar" class="has-text-centered container mb-50">
-      <h2 class="title is-4">お届けする季節の花について</h2>
-      <div class="columns is-mobile has-text-left">
-        <div class="column is-8-desktop is-offset-2-desktop mb-10">
-          <p>旬のもの、流通状況の良いものをご用意し、決まり次第こちらでお伝えいたします。</p>
+
+    <div class="accordion">
+      <div class="container mb-50 is-hidden-tablet divider">
+      </div>
+
+      <div id="calendar" class="has-text-centered container mb-50">
+        <h2 class="title is-4">お届けする季節の花について</h2>
+        <div class="columns is-mobile has-text-left">
+          <div class="column is-8-desktop is-offset-2-desktop mb-10">
+            <p>旬のもの、流通状況の良いものをご用意し、決まり次第こちらでお伝えいたします。</p>
+          </div>
+        </div>
+        <div class="columns is-mobile is-multiline">
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_04.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_04_sp.gif, img/subscription/calendar/mo_04_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_04.gif" alt="4月">
+              </picture>
+              <p>スズラン</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_05.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_05_sp.gif, img/subscription/calendar/mo_05_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_05.gif" alt="5月">
+              </picture>
+              <p>バラ<br>（予定）</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_06.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_06_sp.gif, img/subscription/calendar/mo_06_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_06.gif" alt="6月">
+              </picture>
+              <p>アジサイ<br>（予定）</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_07.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_07_sp.gif, img/subscription/calendar/mo_07_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_07.gif" alt="7月">
+              </picture>
+              <p>ヒマワリ<br>（予定）</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_08.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_08_sp.gif, img/subscription/calendar/mo_08_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_08.gif" alt="8月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_09.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_09_sp.gif, img/subscription/calendar/mo_09_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_09.gif" alt="9月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_10.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_10_sp.gif, img/subscription/calendar/mo_10_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_10.gif" alt="10月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_11.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_11_sp.gif, img/subscription/calendar/mo_11_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_11.gif" alt="11月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_12.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_12_sp.gif, img/subscription/calendar/mo_12_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_12.gif" alt="12月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_01.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_01_sp.gif, img/subscription/calendar/mo_01_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_01.gif" alt="1月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_02.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_02_sp.gif, img/subscription/calendar/mo_02_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_02.gif" alt="2月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
+          <div class="column is-2-desktop is-4-mobile is-4-tablet">
+            <div class="box bordered">
+              <picture>
+                <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_03.gif">
+                <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_03_sp.gif, img/subscription/calendar/mo_03_sp.gif 2x">
+                <img src="img/subscription/calendar/mo_03.gif" alt="3月">
+              </picture>
+              <p>未定</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="columns is-mobile is-multiline">
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_04.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_04_sp.gif, img/subscription/calendar/mo_04_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_04.gif" alt="4月">
-            </picture>
-            <p>スズラン</p>
+
+      <div class="has-text-centered container mb-50">
+        <h2 class="title is-4">サービス開始までの流れ</h2>
+        <div class="columns is-mobile has-text-left">
+          <div class="column is-8-desktop is-offset-2-desktop mb-10">
+            <p>月末までのお申し込みで、翌月初旬から中旬の発送を予定しています。詳細につきましてはご注文後、ご連絡差し上げます。</p>
           </div>
         </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_05.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_05_sp.gif, img/subscription/calendar/mo_05_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_05.gif" alt="5月">
-            </picture>
-            <p>バラ<br>（予定）</p>
+
+        <!-- PC -->
+        <div class="steps steps-two columns is-hidden-touch">
+          <div class="column is-4-desktop is-offset-2-desktop">
+            <div>
+              <div class="wrapper">
+                <h3 class="title is-4">
+                  <img src="img/common/txt_step01.gif" alt="ステップ1">
+                  <br>
+                  お申し込み
+                </h3>
+              </div>
+              <div class="has-text-left">
+                <p>「ハレとケ」オンラインストアの定期便購入ページからお申し込みいただきます。お申し込み後、お届け希望日を入力いただくフォームをメールにてお送りいたしますので、ご回答ください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-desktop">
+            <div>
+              <div class="wrapper">
+                <h3 class="title is-4">
+                  <img src="img/common/txt_step02.gif" alt="ステップ2">
+                  <br>
+                  花と新聞をお届け
+                </h3>
+              </div>
+              <div class="has-text-left">
+                <p>お届け日時が確定したら、メールにてご連絡し、お届け。翌月からは、日時指定フォーム、お届け日確定のご連絡を、流通に合わせて順次お送りします。</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_06.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_06_sp.gif, img/subscription/calendar/mo_06_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_06.gif" alt="6月">
-            </picture>
-            <p>アジサイ<br>（予定）</p>
+
+        <!-- SP -->
+        <div class="is-hidden-tablet">
+          <!-- Step1 -->
+          <div class="columns is-mobile">
+            <div class="column is-3">
+              <img src="img/common/txt_step01_sp.gif" srcset="img/common/txt_step01_sp.gif, img/common/txt_step01_sp.gif 2x" alt="ステップ1">
+            </div>
+            <div class="column is-9 has-text-left">
+              <h3 class="title is-6">
+                お申し込み
+              </h3>
+              <div class="has-text-left">
+                <p>「ハレとケ」オンラインストアの定期便購入ページからお申し込みいただきます。お申し込み後、お届け希望日を入力いただくフォームをメールにてお送りいたしますので、ご回答ください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-30"></div>
+
+          <!-- Step2 -->
+          <div class="columns is-mobile">
+            <div class="column is-3">
+              <img src="img/common/txt_step02_sp.gif" srcset="img/common/txt_step02_sp.gif, img/common/txt_step02_sp.gif 2x" alt="ステップ2">
+            </div>
+            <div class="column is-9 has-text-left">
+              <h3 class="title is-6">
+                花と新聞をお届け
+              </h3>
+              <div class="has-text-left">
+                <p>お届け日時が確定したら、メールにてご連絡し、お届け。翌月からは、日時指定フォーム、お届け日確定のご連絡を、流通に合わせて順次お送りします。</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_07.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_07_sp.gif, img/subscription/calendar/mo_07_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_07.gif" alt="7月">
-            </picture>
-            <p>ヒマワリ<br>（予定）</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_08.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_08_sp.gif, img/subscription/calendar/mo_08_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_08.gif" alt="8月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_09.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_09_sp.gif, img/subscription/calendar/mo_09_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_09.gif" alt="9月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_10.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_10_sp.gif, img/subscription/calendar/mo_10_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_10.gif" alt="10月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_11.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_11_sp.gif, img/subscription/calendar/mo_11_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_11.gif" alt="11月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_12.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_12_sp.gif, img/subscription/calendar/mo_12_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_12.gif" alt="12月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_01.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_01_sp.gif, img/subscription/calendar/mo_01_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_01.gif" alt="1月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_02.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_02_sp.gif, img/subscription/calendar/mo_02_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_02.gif" alt="2月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
-        <div class="column is-2-desktop is-4-mobile is-4-tablet">
-          <div class="box bordered">
-            <picture>
-              <source media="(min-width: 1000px)" srcset="img/subscription/calendar/mo_03.gif">
-              <source media="(max-width: 999px)" srcset="img/subscription/calendar/mo_03_sp.gif, img/subscription/calendar/mo_03_sp.gif 2x">
-              <img src="img/subscription/calendar/mo_03.gif" alt="3月">
-            </picture>
-            <p>未定</p>
-          </div>
-        </div>
+      </div>
+    </div><!-- accordion -->
+
+    <!-- Accordion Switch -->
+    <div class="container mb-50 is-hidden-tablet divider">
+      <div class="button btn-accordion">
+        さらに詳しく ▼
       </div>
     </div>
 
-    <div class="has-text-centered container mb-50">
-      <h2 class="title is-4">サービス開始までの流れ</h2>
-      <div class="columns is-mobile has-text-left">
-        <div class="column is-8-desktop is-offset-2-desktop mb-10">
-          <p>月末までのお申し込みで、翌月初旬から中旬の発送を予定しています。詳細につきましてはご注文後、ご連絡差し上げます。</p>
-        </div>
-      </div>
-      <div class="steps steps-two columns is-mobile">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="is-hidden-touch">
-            <div class="wrapper">
-              <h3 class="title is-4">
-                <img src="img/common/txt_step01.gif" alt="ステップ1">
-                <br>
-                お申し込み
-              </h3>
-            </div>
-            <div class="has-text-left">
-              <p>「ハレとケ」オンラインストアの定期便購入ページからお申し込みいただきます。お申し込み後、お届け希望日を入力いただくフォームをメールにてお送りいたしますので、ご回答ください。</p>
-            </div>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="is-hidden-touch">
-            <div class="wrapper">
-              <h3 class="title is-4">
-                <img src="img/common/txt_step02.gif" alt="ステップ2">
-                <br>
-                花と新聞をお届け
-              </h3>
-            </div>
-            <div class="has-text-left">
-              <p>お届け日時が確定したら、メールにてご連絡し、お届け。翌月からは、日時指定フォーム、お届け日確定のご連絡を、流通に合わせて順次お送りします。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="container">
       <div class="box grey box-cart has-text-centered">
@@ -619,9 +684,11 @@
           <p>月々で特集する花と新聞を、お申し込み月の翌月からお届けします。以降、毎月1セット届きます。</p>
         </div>
       </div>
-      <div class="steps steps-four columns is-mobile">
+
+      <!-- PC -->
+      <div class="steps steps-four columns is-hidden-touch">
         <div class="column is-3-desktop">
-          <div class="is-hidden-touch">
+          <div>
             <div class="wrapper">
               <h3 class="title is-5">
                 <img src="img/common/txt_step01.gif" alt="ステップ1">
@@ -634,7 +701,7 @@
           </div>
         </div>
         <div class="column is-3-desktop">
-          <div class="is-hidden-touch">
+          <div>
             <div class="wrapper">
               <h3 class="title is-5">
                 <img src="img/common/txt_step02.gif" alt="ステップ2">
@@ -647,7 +714,7 @@
           </div>
         </div>
         <div class="column is-3-desktop">
-          <div class="is-hidden-touch">
+          <div>
             <div class="wrapper">
               <h3 class="title is-5">
                 <img src="img/common/txt_step03.gif" alt="ステップ2">
@@ -660,13 +727,79 @@
           </div>
         </div>
         <div class="column is-3-desktop">
-          <div class="is-hidden-touch">
+          <div>
             <div class="wrapper">
               <h3 class="title is-5">
                 <img src="img/common/txt_step04.gif" alt="ステップ2">
                 <p>花と新聞を<br>お届け</p>
               </h3>
             </div>
+            <div class="has-text-left">
+              <p>選択した利用開始月から3ヶ月間、花屋がお勧めする旬の花と、その花について学べる新聞をセットでお届けします。花のある暮らしが始まります。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SP -->
+      <div class="is-hidden-tablet">
+        <!-- Step1 -->
+        <div class="columns is-mobile">
+          <div class="column is-3">
+            <img src="img/common/txt_step01_sp.gif" srcset="img/common/txt_step01_sp.gif, img/common/txt_step01_sp.gif 2x" alt="ステップ1">
+          </div>
+          <div class="column is-9 has-text-left">
+            <h3 class="title is-6">
+              チケットを購入
+            </h3>
+            <div class="has-text-left">
+              <p>ギフトチケットは、「ハレとケ」オンラインストア、または取扱店にてご購入いただけます。</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-30"></div>
+
+        <!-- Step2 -->
+        <div class="columns is-mobile">
+          <div class="column is-3">
+            <img src="img/common/txt_step02_sp.gif" srcset="img/common/txt_step02_sp.gif, img/common/txt_step02_sp.gif 2x" alt="ステップ2">
+          </div>
+          <div class="column is-9 has-text-left">
+            <h3 class="title is-6">
+              チケットをお届け
+            </h3>
+            <div class="has-text-left">
+              <p>オンラインストアでご購入いただいた場合は、お申し込み時に指定いただいたご住所にお届けします。チケットは、ご利用ガイドと共に、丁寧にギフトラッピングした状態でお届けします。</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-30"></div>
+
+        <!-- Step3 -->
+        <div class="columns is-mobile">
+          <div class="column is-3">
+            <img src="img/common/txt_step03_sp.gif" srcset="img/common/txt_step03_sp.gif, img/common/txt_step03_sp.gif 2x" alt="ステップ3">
+          </div>
+          <div class="column is-9 has-text-left">
+            <h3 class="title is-6">
+              好きなタイミングでお申し込み
+            </h3>
+            <div class="has-text-left">
+              <p>お受け取りになった方は、同封されているガイドに従って、インターネットまたはハガキでお申し込みいただきます。定期便の開始月は自由に選択できるので、タイミングを選ばず贈れます。</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-30"></div>
+
+        <!-- Step4 -->
+        <div class="columns is-mobile">
+          <div class="column is-3">
+            <img src="img/common/txt_step04_sp.gif" srcset="img/common/txt_step04_sp.gif, img/common/txt_step04_sp.gif 2x" alt="ステップ4">
+          </div>
+          <div class="column is-9 has-text-left">
+            <h3 class="title is-6">
+              花と新聞をお届け
+            </h3>
             <div class="has-text-left">
               <p>選択した利用開始月から3ヶ月間、花屋がお勧めする旬の花と、その花について学べる新聞をセットでお届けします。花のある暮らしが始まります。</p>
             </div>
