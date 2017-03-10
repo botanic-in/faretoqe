@@ -12,7 +12,7 @@ $(function(){
   // SP版アコーディオン表示
   var isVisibleAccordion = false;
   $('.btn-accordion').on('click', function(){
-    $('.accordion').toggle('slow', '', setTimeout(function(){adjustCalendar()}, 500));
+    $('.accordion').animate({height: 'toggle'}, setTimeout(function(){adjustCalendar()}, 500));
 
     // ボタンテキストの変更
     if(isVisibleAccordion==true){
@@ -29,4 +29,15 @@ $(function(){
     var cal_box_width = $('#calendar .box').width();
     $('#calendar .box').height(cal_box_width);
   }
+
+  // SP版メニュー表示
+  $('#btn-sp-menu').on('click', function(){
+    $('#sp-menu').animate({right: 0});
+  });
+  $('#sp-menu .close').on('click', function(){
+    $('#sp-menu').animate({right: '-90%'});
+  });
+  $('#sp-menu a').on('click', function(){
+    $('#sp-menu').css('right', '-90%');
+  });
 });
