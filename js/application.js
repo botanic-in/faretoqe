@@ -15,7 +15,7 @@ $(function(){
       $(this).text('さらに詳しく ▼');
       isVisibleAccordion = false;
     }else {
-      $(this).text('閉じる ▼');
+      $(this).text('閉じる ▲');
       isVisibleAccordion = true;
     }
   });

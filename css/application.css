@@ -139,7 +139,8 @@ menu { -webkit-padding-start: 0; }
   #footer menu li:not(:last-child):after {
     content: '|';
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 10px;
+    color: #fff;
   }
 }
 
