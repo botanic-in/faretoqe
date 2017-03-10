@@ -107,6 +107,13 @@ section {
 }
 #menu li { margin: auto 15px; }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  padding: 0 15px;
+}
+
+
 /* SP Menu */
 #sp-sns ul {
   justify-content: flex-end;
