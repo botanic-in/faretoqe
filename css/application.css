@@ -127,6 +127,7 @@ section {
   position: fixed;
   top: 10px;
   right: 10px;
+  z-index: 99;
 }
 #btn-sp-menu i {
   color: #fff !important;
