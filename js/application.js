@@ -1,8 +1,6 @@
 $(function(){
   // ページ内スクロール
-  // var headerHight = 140; //ヘッダの高さ
   var headerHeight = $('#menu').height(); //ヘッダー高さ（SP版では0）
-  console.log(headerHeight);
   $('a[href^=\\#]').click(function(){
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
