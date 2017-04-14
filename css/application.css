@@ -102,7 +102,7 @@ section {
   z-index: 100;
 }
 #menu ul {
-  height: 100px;
+  height: 120px;
   justify-content: center;
 }
 #menu li { margin: auto 15px; }
