@@ -54,10 +54,6 @@ section {
   border: 1px solid #565A65 !important;
 }
 
-.box:hover{
-    color: #ff0000;
-}
-
 @media (max-width: 999px) {
   .title.is-4-mobile { font-size: 1.5rem; }
   .title.is-5-mobile { font-size: 1.25rem; }
