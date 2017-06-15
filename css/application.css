@@ -54,7 +54,7 @@ section {
   border: 1px solid #565A65 !important;
 }
 
-.box.bordered:hover{
+.box:hover{
     color: #ff0000;
 }
 
