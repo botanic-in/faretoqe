@@ -86,7 +86,6 @@ section {
 .btn-cart, .btn-contact, .btn-about {
   height: 3.0em;
   width: 80%;
-  font-size: 1rem;
 }
 @media (max-width: 999px) {
   .btn-cart, .btn-contact, .btn-about { width: 100%; }
