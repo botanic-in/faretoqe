@@ -3,6 +3,7 @@
 ---------------------*/
 
 $(window).bind("load", function(){
+    var url = location.href;
     if(url == "https://faretoqe.com"){
             document.getElementById("js-date").innerHTML = getDate();
 
