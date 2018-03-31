@@ -2,9 +2,9 @@
 日付取得
 ---------------------*/
 
-//$(window).bind("load", function(){
-//    var url = location.href;
-//    if(url == "https://faretoqe.com"){
+$(window).bind("load", function(){
+    var url = location.href;
+    if(url == "https://faretoqe.com"){
             document.getElementById("js-date").innerHTML = getDate();
 
             function getDate(){
@@ -16,8 +16,8 @@
             var s =year + "." + mon + "/" + day;
                 return s;
             }        
-//    }
-//})
+    }
+})
 
 
 
