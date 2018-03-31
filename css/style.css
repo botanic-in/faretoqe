@@ -272,7 +272,8 @@ body {
   width: 100%;
   font-family: arial, helvetica, sans-serif, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'MS PGothic', Meiryo, メイリオ;
   font-size: 15px;
-  line-height: 2; }
+  line-height: 2;
+  margin-top: -30px; }
 body a {
     color: #777777;
     transition: all .3s ease-in-out; }
