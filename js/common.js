@@ -3,7 +3,7 @@
 ---------------------*/
 
 $(window).bind("load", function(){
-    if(url == "https://faretoqe.com/"){
+    if(url == "https://faretoqe.com"){
             document.getElementById("js-date").innerHTML = getDate();
 
             function getDate(){
