@@ -302,7 +302,8 @@ body a:hover {
   width: 140px;
   position: fixed;
   bottom: 80px;
-  right: 60px; }
+  right: 60px;
+  z-index: 1; }
 .p-links--sp {
   display: none;
   text-align: center; }
