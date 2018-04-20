@@ -325,6 +325,7 @@ body a:hover {
   width: 100%;
   background: url(../images/fq-shop-banner.jpg);
   background-size: cover;
+  border-radius: 5px;
   color: white;
   padding: 20px 5%;
   text-align: center;
@@ -699,8 +700,11 @@ about
     font-size: 17px;
     margin-top: 30px; } }
 .about__detail {
-  text-align: left;
-  margin-top: 20px; }
+  text-align: left; }
+.about__detail__teiki .about__detail__ttl {
+  padding-top: 51px; }
+.faq__detail .about__detail__ttl {
+  padding-top: 45px; }
 .about__detail__ttl {
   font-size: 17px;
   font-weight: bold;
@@ -826,6 +830,10 @@ media
   letter-spacing: 3.5px;
   margin: 32px 0 0 0;
   line-height: 1; }
+.gift__h2 {
+  font-size: 14px;
+  display: block;
+  padding-bottom: 18px; }
 .products__price {
   font-size: 14px;
   letter-spacing: 1px;
@@ -837,6 +845,8 @@ media
   letter-spacing: 1px; }
 .products__disc {
   margin: 120px 0; }
+product__disc__wrap {
+  margin-bottom: 40px; }
 @media all and (max-width: 767px) {
   margin: 60px 0; }
 .disc__list {
@@ -956,6 +966,8 @@ media
 .products__sample {
   text-align: center;
   margin-bottom: 120px; }
+.sample__pdf {
+  padding-bottom: 20px; }
 @media all and (max-width: 620px) {
   .products__sample {
     width: 90%;
@@ -968,7 +980,8 @@ media
   text-align: left; }
 .gallery__lists {
   overflow: hidden;
-  width: 100%; }
+  width: 100%;
+  margin-top: -20px; }
 .gallery__item {
   margin-top: 30px;
   width: 33%;
