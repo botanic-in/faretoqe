@@ -1,0 +1,80 @@
+.box940{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media all and (max-width: 960px) {
+    .box940{
+        width: 90%;
+    }
+}
+
+.box620{
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media all and (max-width: 620px) {
+    .box620{
+        width: 90%;
+    }
+}
+
+.u-list{
+//    display: table-cell;
+}
+
+.u-cvarea{
+    margin-top: 120px;
+}
+
+@media all and (max-width: 620px) {
+    margin-top: 60px;
+}
+
+.u-sp{
+    display: none;
+}
+
+@media all and (max-width: 620px) {
+    .u-pc{
+        display: none;
+    }
+    .u-sp{
+        display: block;
+    }
+    .sp-br{
+        display: block;
+    }
+}
+
+
+
+/*fbレスポンシブ対応*/
+
+.facebook__wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    iframe{
+        width: 100% !important;
+    }
+    .fb-page{
+        width: 100%;
+        span{
+            width: 100% !important;
+        }
+    }
+}
+
+
+/*sticky nav*/
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
