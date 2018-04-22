@@ -738,6 +738,10 @@ products
     border: thin solid #970303;
     background: #fff;
     color: #970303; }
+@media all and (max-width: 620px) {
+  .btn-mothersDay {
+    margin-top: 90px;
+    padding: 14px 23px; } }
 /*----------------------------
 about
 ----------------------------*/
