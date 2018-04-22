@@ -82,6 +82,93 @@ sp nav
 /*----------------------------
 main visual
 ----------------------------*/
+
+/*-------------------------swiper----------------------------*/
+
+.mv__page1{
+    width: 100%;
+    height: 100%;
+    background: url(../images/fq-top-mv_01.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;    
+}
+
+.mv__page2{
+    background-image: url(../images/mv_mothersDay.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (max-width: 620px) {
+    .mv__page2{
+        background-position: right -80px bottom 0px;
+    }
+}
+
+.page2__txt{
+    position: absolute;
+    left: 120px;
+    top: calc(50% - 105px);
+    color: #716c1a;
+}
+
+@media all and (max-width: 767px) {
+    .page2__txt{
+        width: 100%;
+        left: 0;
+        top: 80px;
+    }
+    .page2__bg-sp{
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+
+
+
+.mv__page2__illust{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mothersDay{
+    font-family: 'Qwigley', cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 100px;
+    letter-spacing: 5px;
+    line-height: 1;
+}
+
+@media all and (max-width: 620px) {
+    .mothersDay{
+        font-size: 66px;
+    }
+}
+
+.giftTicket{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0 0 20px 0;
+}
+
+@media all and (max-width: 620px) {
+    .giftTicket{
+        font-weight: normal;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -15px 0 10px 0;
+    }
+}
+
+
 .mv__txt{
     position: absolute;
     left: calc(50% - 88px);
@@ -127,6 +214,7 @@ main visual
     padding-bottom: 16px;
     letter-spacing: 1px;
     font-weight: bold;
+    color: #fff;
 }
 
 .sns__followus{
@@ -351,6 +439,23 @@ products
     }
 }
 
+
+.btn-mothersDay{
+    border: thin solid #970303;
+    padding: 10px 15px;
+    color: #fff;
+    background: #970303;
+    &:hover{
+        border: thin solid #970303;
+        background: #fff;
+        color: #970303;
+    }
+}
+
+@media all and (max-width: 620px) {
+    .btn-mothersDay{
+    }
+}
 
 /*----------------------------
 about

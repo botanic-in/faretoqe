@@ -22,7 +22,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
   <!-- Google Analytics -->
@@ -47,13 +49,43 @@
     
     
     <!--MainVisual-->
-    <section class="p-mainvisual">
-        <div class="mv__txt">
-            <h1 class="mv__logo"><img src="images/fq-top-logo@2x.png" alt="霽れと褻"></h1>
-            <p class="mv__date">TODAY<span class="mv__date__number" id="js-date"></span><span class="mv__credit">produced by BOTANIC INC.</span></p>
+<!--
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide mv__page1">
+                <div class="mv__txt">
+                    <h1 class="mv__logo"><img src="images/fq-top-logo@2x.png" alt="霽れと褻"></h1>
+                    <p class="mv__date">TODAY<span class="mv__date__number" id="js-date"></span><span class="mv__credit">produced by BOTANIC INC.</span></p>
+                </div>
+                <p class="mv__scroll">SCROLL</p>
+            </div>
+            <div class="swiper-slide">
+                <p class="slider2">Mother's day!</p>
+            </div>
+        swiper-wrapper</div>
+        <div class="swiper-pagenation"></div>
+    </div>
+-->
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide mv__page1">
+            <div class="mv__txt">
+                    <h1 class="mv__logo"><img src="images/fq-top-logo@2x.png" alt="霽れと褻"></h1>
+                    <p class="mv__date">TODAY<span class="mv__date__number" id="js-date"></span><span class="mv__credit">produced by BOTANIC INC.</span></p>
+                </div>
+                <p class="mv__scroll">SCROLL</p>
         </div>
-        <p class="mv__scroll">SCROLL</p>
-    </section>
+        <div class="swiper-slide mv__page2">
+            <div class="page2__bg-sp"><div class="page2__txt"><p class="mothersDay">Mother's Day</p>
+                <p class="giftTicket">GIFT TICKET</p>
+                <a href="https://faretoqe.shop-pro.jp/" target="_blank"><button class="c-button btn-mothersDay">ギフトチケットを贈る</button></a>
+            </div>
+            <img src="images/mv-mother-flowers.png" class="mv__page2__illust">
+                <p class="mv__scroll">SCROLL</p>
+            <!--page2__bg-sp--></div></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
     
     <div class="p-links">
         <p class="sns__followus">FOLLOW US</p>
@@ -138,6 +170,9 @@
             
             <a href="https://faretoqe.shop-pro.jp/" target="_blank"><div class="p-banner">
                 <p><span>ONLINE STORE</span>その他にもオリジナルの花瓶や、<br>期間限定商品など取り揃えています。</p>
+                </div></a>
+            <a href="https://faretoqe.shop-pro.jp/" target="_blank"><div class="p-banner p-banner-mother">
+                <p><span>Mother's day</span>母の日限定ギフトチケット<br/>霽れと褻オリジナルの母の日メッセージカードを添えて、お母さんに花のある暮らしを</p>
                 </div></a>
         <!--box940--></div>
     </section>
@@ -248,6 +283,19 @@
     
     <script src="js/common.js"></script>
     <script src="js/addtop.js"></script>
+    <!--swiper-->
+    <script type="text/javascript">
+    var mySwiper = new Swiper ('.swiper-container', {
+        effect: 'fade',
+        pagination: {
+            el: '.swiper-pagenation',
+        },
+        autoplay:{
+            delay: 5000
+        }
+    })
+    </script>
+    
     <!-- リマーケティング タグの Google コード -->
 <script type="text/javascript">
 /* <![CDATA[ */
