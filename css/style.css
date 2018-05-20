@@ -295,7 +295,8 @@ body a:hover {
   width: 100vw;
   height: 100vh;
   position: relative;
-  text-align: center; }
+  text-align: center; 
+  background: url(../images/fq-top-mv_01.jpg); }
 .p-links {
   width: 140px;
   position: fixed;
@@ -489,7 +490,6 @@ main visual
 .mv__page1 {
   width: 100%;
   height: 100%;
-  background: url(../images/fq-top-mv_01.jpg);
   background-size: cover;
   background-position: center;
   color: #fff; }
