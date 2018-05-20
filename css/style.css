@@ -296,7 +296,8 @@ body a:hover {
   height: 100vh;
   position: relative;
   text-align: center; 
-  background: url(../images/fq-top-mv_01.jpg); }
+  background: url(../images/fq-top-mv_01.jpg);
+  background-size: cover; }
 .p-links {
   width: 140px;
   position: fixed;
