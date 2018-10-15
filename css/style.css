@@ -295,7 +295,7 @@ body a:hover {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background: url(../images/fq-top-mv_01.jpg?20181015);
+  background: url(../images/fq-top-mv_01.jpg);
   background-size: cover;
   background-position: center;
   text-align: center; }
